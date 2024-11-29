@@ -13,14 +13,20 @@ const Chat: FunctionComponent = () => {
   const [messages, setMessages] = useState<ChatMessage[]>([
     {
       id: '1',
-      text: 'Привет! Я AI Training Assistant. Как я могу помочь?',
+      text: 'Привет! Я AI учитель. Как я могу помочь?',
       isAi: true,
       timestamp: new Date(),
     },
     {
       id: '2',
-      text: 'Привет! Как мне начать обучение?',
+      text: 'Привет! Протестируй мои навыки продаж, я не могу понять почему клиенты отказывают мне',
       isAi: false,
+      timestamp: new Date(),
+    },
+    {
+      id: '3',
+      text: 'Отлично, давай приступим!...',
+      isAi: true,
       timestamp: new Date(),
     },
   ])
