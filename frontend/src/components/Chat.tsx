@@ -32,7 +32,7 @@ const Chat: FunctionComponent = () => {
   ])
 
   return (
-    <div className="flex h-[650px] w-[1100px] flex-col text-wrap rounded-[20px] bg-white shadow-xl">
+    <div className="flex h-full w-full flex-col text-wrap bg-white shadow-xl">
       {/* Chat header */}
       <div className="border-b p-4 shadow-sm">
         <h1 className="text-xl font-semibold">AI-Teacher</h1>
